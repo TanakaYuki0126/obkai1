@@ -16,7 +16,7 @@ import {
   Typography,
 } from '@mui/material'
 import Image from 'next/image'
-import React from 'react'
+import React, { ReactElement } from 'react'
 import Header from '../../components/Header'
 import Layout from '../../components/Layout'
 const bandsData = [
@@ -49,7 +49,16 @@ const bandsData = [
     img: 'https://picsum.photos/200',
   },
 ]
-const BandCard = (props) => {
+type CardProps = {
+  band: {
+    id: number
+    name: string
+    origin: string
+    uniteYear: string
+    img: string
+  }
+}
+const BandCard: React.FC<CardProps> = (props) => {
   const { band } = props
   return (
     <>
@@ -127,6 +136,6 @@ const Page = () => {
 }
 
 export default Page
-Page.getLayout = function getLayout(page) {
+Page.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>
 }
