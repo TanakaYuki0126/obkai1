@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-obkai1-dev-05431-authRole",
+      "UnauthRoleArn": "arn:aws:iam::265161427923:role/amplify-obkai1-dev-05431-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::265161427923:role/amplify-obkai1-dev-05431-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-obkai1-dev-05431-deployment",
+      "UnauthRoleName": "amplify-obkai1-dev-05431-unauthRole",
+      "StackName": "amplify-obkai1-dev-05431",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:265161427923:stack/amplify-obkai1-dev-05431/9ba4e310-7710-11ed-a08f-0eccf87c1959",
+      "AmplifyAppId": "d36kfi0v3y6spb"
+    }
+  }
+}

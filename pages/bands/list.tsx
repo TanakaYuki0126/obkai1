@@ -1,4 +1,5 @@
-import { Search, SwapVert } from '@mui/icons-material'
+import Search from '@mui/icons-material/Search'
+import SwapVert from '@mui/icons-material/SwapVert'
 import {
   Box,
   Button,
